@@ -6,6 +6,16 @@ const routes = [
         path: "/",
         component: () => import("../pages/Home.vue")
     },
+    {
+        name: "StretchPage",
+        path: "/",
+        component: () => import("../pages/stretch.vue")
+    },
+    {
+        name: "DambılPage",
+        path: "/",
+        component: () => import("../pages/dambıl.vue")
+    },
 ]
 
 const router = createRouter({
