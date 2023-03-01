@@ -1,6 +1,7 @@
 <template>
     <appHeader />
     <sidebar />
+    
 </template>
 
 <script setup>

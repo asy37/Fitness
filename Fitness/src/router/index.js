@@ -16,7 +16,6 @@ const routes = [
         path: "/",
         component: () => import("../pages/dambıl.vue")
     },
-    
 ]
 
 const router = createRouter({
