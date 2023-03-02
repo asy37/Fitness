@@ -298,4 +298,3 @@
    </ul>
   </div>
  </template>
-
