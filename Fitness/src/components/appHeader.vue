@@ -7,7 +7,10 @@
         </div>
 
         <div class="flex items-center justify-center">
+
+
             <input class="outline-none text-blue-900 pl-2 text-sm rounded-lg w-2/3" type="text">
+
         </div>
         
         <div class="flex justify-center">
