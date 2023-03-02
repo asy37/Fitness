@@ -7,16 +7,10 @@ const routes = [
         component: () => import("../pages/Home.vue")
     },
     {
-        name: "StretchPage",
+        name: "EsnemePage",
         path: "/",
-        component: () => import("../pages/stretch.vue")
+        component: () => import("../pages/esneme.vue")
     },
-    {
-        name: "DambılPage",
-        path: "/",
-        component: () => import("../pages/dambıl.vue")
-    },
-    
 ]
 
 const router = createRouter({
