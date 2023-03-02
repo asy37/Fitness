@@ -8,11 +8,11 @@ const routes = [
     },
 
     {
+
         name: "EsnemePage",
         path: "/",
         component: () => import("../pages/esneme.vue")
     },
-
 ]
 
 const router = createRouter({
