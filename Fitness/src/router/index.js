@@ -7,6 +7,7 @@ const routes = [
         component: () => import("../pages/Home.vue")
     },
     {
+
         name: "AboutUsPage",
         path: "/aboutus",
         component: () => import("../pages/AboutUs.vue")
@@ -26,7 +27,11 @@ const routes = [
         path: "/register",
         component: () => import("../pages/Register.vue")
     },
-    
+    {
+        name: "EsnemePage",
+        path: "/",
+        component: () => import("../pages/esneme.vue")
+    },
 ]
 
 const router = createRouter({
