@@ -6,9 +6,7 @@ const routes = [
         path: "/",
         component: () => import("../pages/Home.vue")
     },
-
     {
-
         name: "EsnemePage",
         path: "/",
         component: () => import("../pages/esneme.vue")

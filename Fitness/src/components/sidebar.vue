@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-blue-900 w-14 inline-block py-4 rounded-br-lg  hover:w-64 transition-all duration-300" >
+  <div class=" bg-blue-900 w-14 fixed  py-4 rounded-br-lg  hover:w-64 transition-all duration-300" >
    <ul  >
     <router-link to="/esneme">
              <li class="p-2 flex items-center text-center text-white rounded-md hover:bg-sky-700">
