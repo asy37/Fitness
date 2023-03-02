@@ -1,5 +1,5 @@
 <template>
-    
+
         <RouterLink class="text-sm underline flex text-blue-900" to="/">
             <svg fill="#233876" width="20px" height="20px" viewBox="0 0 24.00 24.00" id="left-arrow" xmlns="http://www.w3.org/2000/svg" class="icon line"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M21,12H3M6,9,3,12l3,3" style="fill: none; stroke: #233876; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>
             Anasayfaya Dön
