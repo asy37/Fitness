@@ -298,5 +298,4 @@
    </ul>
   </div>
  </template>
-<script setup>
-</script>
+
