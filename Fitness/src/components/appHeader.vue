@@ -8,6 +8,7 @@
 
         <div class="flex items-center justify-center">
 
+            <input class="outline-none border-none text-blue-900 pl-2 py-1 text-xs rounded-lg w-2/3" type="text"
 
             <input class="outline-none text-blue-900 pl-2 text-sm rounded-lg w-2/3" type="text">
 

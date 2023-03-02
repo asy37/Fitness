@@ -10,6 +10,6 @@ import appHeader from './components/appHeader.vue'
 const app = createApp(App)
 
 app.component('appHeader', appHeader)
-
+app.component('appHeader', appHeader)
 app.use(router)
 app.mount('#app')
