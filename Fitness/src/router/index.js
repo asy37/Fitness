@@ -6,9 +6,27 @@ const routes = [
         path: "/",
         component: () => import("../pages/Home.vue")
     },
-
     {
-
+        name: "AboutUsPage",
+        path: "/aboutus",
+        component: () => import("../pages/AboutUs.vue")
+    },
+    {
+        name: "OurMissionPage",
+        path: "/ourmission",
+        component: () => import("../pages/OurMission.vue")
+    },
+    {
+        name: "LoginPage",
+        path: "/login",
+        component: () => import("../pages/Login.vue")
+    },
+    {
+        name: "RegisterPage",
+        path: "/register",
+        component: () => import("../pages/Register.vue")
+    },
+    {
         name: "EsnemePage",
         path: "/esneme",
         component: () => import("../pages/Esneme.vue")
