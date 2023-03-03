@@ -1,11 +1,9 @@
 <template>
-    <appHeader />
-    <sidebar />
+    <menu />
 
 </template>
 
 <script setup>
-import appHeader from '../components/appHeader.vue'
-import sidebar from '../components/sidebar.vue'
+import menu from '../components/template.vue'
 
 </script>

@@ -1,8 +1,7 @@
 <template>
-  <div class=" bg-blue-900 w-14 inline-block py-4 rounded-br-lg  hover:w-64 transition-all duration-300" >
-   <ul  >
-    <router-link to="/esneme">
-             <li class="p-2 flex items-center text-center text-white rounded-md hover:bg-sky-700">
+  <div class=" bg-blue-900 w-14 fixed  py-4 rounded-br-lg  hover:w-64 transition-all duration-300" >
+   
+    <router-link to="/esneme" class="p-2 flex items-center  text-center text-white rounded-md  hover:bg-blue-800">
       <span>
         <svg class="w-10 h-10 mr-2 " fill="#fff"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
              viewBox="0 0 487.574 487.574" xml:space="preserve">
@@ -48,10 +47,9 @@
       <span >
           Esneme
       </span>
-    </li>
+
     </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/dambıl" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
       <span >
         <svg class="w-10 h-10 mr-2" fill="#fff"  viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
            <path d="M248,124H236V88a12.01375,12.01375,0,0,0-12-12H204V64a12.01375,12.01375,0,0,0-12-12H168a12.01375,12.01375,0,0,0-12,12v60H100V64A12.01375,12.01375,0,0,0,88,52H64A12.01375,12.01375,0,0,0,52,64V76H32A12.01375,12.01375,0,0,0,20,88v36H8a4,4,0,0,0,0,8H20v36a12.01375,12.01375,0,0,0,12,12H52v12a12.01375,12.01375,0,0,0,12,12H88a12.01375,12.01375,0,0,0,12-12V132h56v60a12.01375,12.01375,0,0,0,12,12h24a12.01375,12.01375,0,0,0,12-12V180h20a12.01375,12.01375,0,0,0,12-12V132h12a4,4,0,0,0,0-8ZM32,172a4.00458,4.00458,0,0,1-4-4V88a4.00458,4.00458,0,0,1,4-4H52v88Zm60,20a4.00458,4.00458,0,0,1-4,4H64a4.00458,4.00458,0,0,1-4-4V64a4.00458,4.00458,0,0,1,4-4H88a4.00458,4.00458,0,0,1,4,4Zm104,0a4.00458,4.00458,0,0,1-4,4H168a4.00458,4.00458,0,0,1-4-4V64a4.00458,4.00458,0,0,1,4-4h24a4.00458,4.00458,0,0,1,4,4Zm32-24a4.00458,4.00458,0,0,1-4,4H204V84h20a4.00458,4.00458,0,0,1,4,4Z"/>
@@ -60,10 +58,8 @@
       <span >
         Dambıl
       </span>
-    </li>
   </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/halter" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
       <span>
         <svg class="w-10 h-10 mr-2" fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
             viewBox="0 0 475.87 475.87" xml:space="preserve">
@@ -81,10 +77,8 @@
       <span>
         Halter
       </span>
-    </li>
   </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/vagırlıgı" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
       <span>
         <svg class="w-10 h-10 mr-2" fill="#fff"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
            viewBox="0 0 486.887 486.887" xml:space="preserve">
@@ -125,10 +119,8 @@
       <span >
         Vücut Ağırlığı
       </span>
-    </li>
   </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/kablo" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
       <span>
         <svg class="w-10 h-10 mr-2" fill="#fff"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
            viewBox="0 0 512.001 512.001" xml:space="preserve">
@@ -154,10 +146,8 @@
       <span>
           Kablo
       </span>
-    </li>
   </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/kettlebells" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
       <span>
         <svg class="w-10 h-10 mr-2" fill="#fff" viewBox="0 0 64 64" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><defs></defs><title/><path class="cls-1" d="M32,53.55A17,17,0,0,1,17.45,27.86a15.49,15.49,0,0,1-.23-2.63,14.78,14.78,0,0,1,29.56,0,15.49,15.49,0,0,1-.23,2.63A17,17,0,0,1,32,53.55Zm0-41.1a12.79,12.79,0,0,0-12.51,15.4,1,1,0,0,1-.14.74,15,15,0,1,0,25.3,0,1,1,0,0,1-.14-.74A12.79,12.79,0,0,0,32,12.45ZM42.77,25.8a1,1,0,0,1-.68-.26,14.95,14.95,0,0,0-20.18,0,1,1,0,0,1-1.68-.78,11.78,11.78,0,0,1,23.54,0,1,1,0,0,1-.58.95A1,1,0,0,1,42.77,25.8ZM32,19.62a16.88,16.88,0,0,1,9.38,2.83,9.78,9.78,0,0,0-18.76,0A16.88,16.88,0,0,1,32,19.62Z"/><path class="cls-1" d="M42.77,25.8a1,1,0,0,1-.68-.26,14.95,14.95,0,0,0-20.18,0,1,1,0,0,1-1.68-.78,11.78,11.78,0,0,1,23.54,0,1,1,0,0,1-.58.95A1,1,0,0,1,42.77,25.8ZM32,19.62a16.88,16.88,0,0,1,9.38,2.83,9.78,9.78,0,0,0-18.76,0A16.88,16.88,0,0,1,32,19.62Z"/><path class="cls-1" d="M42.77,25.8a1,1,0,0,1-.68-.26,14.95,14.95,0,0,0-20.18,0,1,1,0,0,1-1.68-.78,11.78,11.78,0,0,1,23.54,0,1,1,0,0,1-.58.95A1,1,0,0,1,42.77,25.8ZM32,19.62a16.88,16.88,0,0,1,9.38,2.83,9.78,9.78,0,0,0-18.76,0A16.88,16.88,0,0,1,32,19.62Z"/>
           <path class="cls-1" d="M32.93,49.16h-.06C20.88,48.47,20,37.4,20,37.29a1,1,0,1,1,2-.12h0c0,.38.76,9.41,11,10a1,1,0,0,1-.06,2Z"/></svg>
@@ -165,10 +155,8 @@
       <span>
         Kettlebells
       </span>
-    </li>
   </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/bant" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
     <span>
       <svg class="w-10 h-10 mr-2" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
          viewBox="0 0 511.999 511.999" xml:space="preserve">
@@ -265,10 +253,8 @@
     <span>
         Bant
     </span>
-    </li>
   </router-link>
-    <router-link to="/esneme">
-     <li class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-sky-700">
+    <router-link to="/plaka" class="p-2 flex items-center text-center align-center text-white rounded-md hover:bg-blue-800">
       <span>
         <svg class="w-10 h-10 mr-2" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
             viewBox="0 0 512 512" xml:space="preserve">
@@ -293,8 +279,14 @@
       <span >
           Plaka
       </span>
-    </li>
   </router-link>
-   </ul>
   </div>
  </template>
+ <script setup>
+
+</script>
+<style>
+.activelink  {
+  background-color: #1d4ed8 !important;  
+}
+</style>

@@ -10,15 +10,20 @@ const routes = [
     {
 
         name: "EsnemePage",
-        path: "/",
-        component: () => import("../pages/esneme.vue")
+        path: "/esneme",
+        component: () => import("../pages/Esneme.vue")
+    },
+    {
+        name: "DambılPage",
+        path: "/dambıl",
+        component: () => import("../pages/Dambıl.vue")
     },
 ]
 
 const router = createRouter({
     routes,
-    history: createWebHistory()
-
+    history: createWebHistory(),
+    linkActiveClass:'activelink'
 })
 
 export default router
