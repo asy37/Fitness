@@ -35,6 +35,15 @@ const routes = [
         name: "DumbbellPage",
         path: "/dumbbell",
         component: () => import("../pages/drillPages/back/gluteus/Dumbbell.vue")
+{
+        name: "EsnemePage",
+        path: "/esneme",
+        component: () => import("../pages/Esneme.vue")
+    },
+    {
+        name: "DambılPage",
+        path: "/dambıl",
+        component: () => import("../pages/Dambıl.vue")
     },
 ]
 
