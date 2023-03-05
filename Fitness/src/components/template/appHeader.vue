@@ -19,7 +19,13 @@
                     </svg>
                 </RouterLink>
             </div>
-        </div>
+
+    <div class="grid grid-cols-3 gap-4 p-2 bg-blue-900 text-white">
+        <div class="flex justify-around">
+            <RouterLink class="p-2 rounded-md  hover:bg-blue-800" to="/">Anasayfa</RouterLink>
+            <RouterLink class="p-2 rounded-md  hover:bg-blue-800" to="/aboutus">Hakkımızda</RouterLink>
+            <RouterLink class="p-2 rounded-md  hover:bg-blue-800" to="/ourmission">Misyonumuz</RouterLink>
+</div>
 
         <div class="flex items-center justify-center">
 
@@ -35,11 +41,5 @@
     
     </div>
 </template>
-<style>
-.activelink  {
-  background-color: transparent !important;  
-}
-</style>
-<script setup>
 
-</script>
+
