@@ -27,14 +27,14 @@ const routes = [
         component: () => import("../pages/Register.vue")
     },
     {
-        name: "EsnemePage",
-        path: "/esneme",
-        component: () => import("../pages/Esneme.vue")
+        name: "StretchPage",
+        path: "/stretch",
+        component: () => import("../pages/drillPages/back/gluteus/Stretch.vue")
     },
     {
-        name: "DambılPage",
-        path: "/dambıl",
-        component: () => import("../pages/Dambıl.vue")
+        name: "DumbbellPage",
+        path: "/dumbbell",
+        component: () => import("../pages/drillPages/back/gluteus/Dumbbell.vue")
     },
 ]
 
