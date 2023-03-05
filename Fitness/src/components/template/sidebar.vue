@@ -1,9 +1,5 @@
 <template>
-<button @click="dropdown = !dropdown" class="-translate-y-24 pl-1 pt-2 pb-2 max-sm:-translate-y-16 bg-transparent  w-14" type="button">
-  <svg xmlns="http://www.w3.org/2000/svg" width="40px"  viewBox="0 0 24 24" fill="#fff">
-                    <path d="M4 17H20M4 12H20M4 7H20" stroke="#fff " stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-</button>
-  <div class=" bg-blue-900 h-full w-14 fixed -translate-y-14 py-4 rounded-br-lg text-transparent hover:text-white hover:w-64 max-sm:-translate-x-24 transition-all duration-300 max-sm:w-14" :class="{'max-sm:translate-x-0':dropdown}">
+  <div class=" bg-blue-900 h-full w-14 fixed  py-4 rounded-br-lg text-transparent hover:text-white hover:w-64 transition-all duration-300 max-sm:w-14" >
    
     <router-link to="/stretch" class="p-2 flex items-center  text-center  rounded-md  hover:bg-blue-800">
       <span>
