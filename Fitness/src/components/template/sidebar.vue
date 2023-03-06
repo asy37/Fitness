@@ -1,11 +1,8 @@
 <template>
-  <button @click="showSidenav = !showSidenav" class="max-sm:-translate-y-12 max-sm:translate-x-1 p-2"><svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="#fff">
+  <button @click="showSidenav = !showSidenav" class="fixed max-sm:-translate-y-16  max-sm:translate-x-1 p-2"><svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="#fff">
 <path d="M4 17H20M4 12H20M4 7H20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg></button>
-   <div :class="{'max-sm:translate-x-0':showSidenav}" class=" bg-blue-900 h-full w-14 fixed -translate-y-14 py-4 rounded-br-lg text-transparent hover:text-white hover:w-64 transition-all duration-300 max-sm:-translate-x-24 max-sm:w-14" >
-      <div class=" bg-blue-900 w-14 fixed  py-4 rounded-br-lg text-transparent hover:text-white hover:w-64 transition-all duration-300 max-sm:w-14" >
-
-      
+   <div :class="{'max-sm:translate-x-0':showSidenav}" class=" bg-blue-900 h-full w-14 fixed  rounded-br-lg text-transparent hover:text-white hover:w-64 transition-all duration-300 max-sm:-translate-x-24 max-sm:w-14" >    
         <router-link to="/stretch" class="p-2 flex items-center  text-center  rounded-md  hover:bg-blue-800">
           <span>
             <svg class="w-10 h-10 mr-2 " fill="#fff"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -268,8 +265,7 @@
           </span>
               Plaka
       </router-link>
-      </div>
-  </div>
+        </div>
  </template>
  <script setup>
 import { ref } from 'vue';
